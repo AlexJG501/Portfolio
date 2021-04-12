@@ -135,8 +135,6 @@ h2 {
     border: 3px solid var(--secondary-color);
     justify-content: space-around;
     vertical-align: middle;
-    height: 100%;
-    width: 100%;
     filter: grayscale(100%);
     box-sizing: border-box;
 }
@@ -162,6 +160,13 @@ h2 {
 .content ul li a {
     text-decoration: none;
     color: black;
+}
+.row {
+    display: flex;
+}
+.column {
+    flex: 50%;
+    padding: 10px;
 }
 
 /* MEDIA QUERIES */
