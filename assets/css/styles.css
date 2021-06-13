@@ -137,6 +137,8 @@ h2 {
     vertical-align: middle;
     filter: grayscale(100%);
     box-sizing: border-box;
+    width: 100%;
+    height: auto;
 }
 .rb-img:hover {
     opacity: 0.8;
